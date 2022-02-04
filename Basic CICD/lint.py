@@ -13,6 +13,3 @@ score = run.linter.stats["global_note"]
 if score < THRESHOLD:
 
     print("Linter failed: Score < threshold value")
-
-
-else:
