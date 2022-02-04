@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pylint yamllint
+          pip install pylint pytest yamllint
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Running the code with pylint
