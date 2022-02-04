@@ -20,7 +20,7 @@ def sum_factorial():
 
     result=sum(final_list)
 
-    print("Final SUM {}".format(result))
+    print("Final SUM = {}".format(result))
 
     return result
 
@@ -29,4 +29,3 @@ if __name__ == '__main__':
 
 
 SUM = 620960027832821612639424806694551108812720525606160920420940314
-print('abc')
