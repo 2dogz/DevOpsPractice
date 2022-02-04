@@ -24,9 +24,11 @@ def sum_factorial():
 
     return result
 
+def test_answer():
+    assert factorial(5) == 120
+
 if __name__ == '__main__':
     sum_factorial()
 
 
 SUM = 620960027832821612639424806694551108812720525606160920420940314
-print('abc')
