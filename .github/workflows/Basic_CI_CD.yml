@@ -29,4 +29,4 @@ jobs:
 
     - name: Running the code with yamllint
       run: |
-        find . -name '*.yml' -exec yamllint {} \;
+        find . -name '*.(yaml)' -exec yamllint {} \;
