@@ -29,4 +29,4 @@ jobs:
 
     - name: Running the code with yamllint
       run: |
-        find . -name '*.py' -exec pylint {} \;
+        find . -name '*.yaml' -exec pylint {} \;
