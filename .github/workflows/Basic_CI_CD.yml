@@ -29,3 +29,7 @@ jobs:
       - name: Running the code with yamllint
         run: |
           find . -name '*.yml' -exec yamllint {} \;
+
+      - name: Running the code with pytest
+        run: |
+          find . -name '*.py' -exec pytest {} \;
